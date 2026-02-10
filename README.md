@@ -100,9 +100,6 @@ UART transmits and receives data asynchronously, meaning there is no shared cloc
 UART_HandleTypeDef huart2;
 
 
-UART_HandleTypeDef huart2;
-
-
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
